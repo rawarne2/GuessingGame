@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <!-- Bootstrap and CSS here-->
+  </head>
+  
+  <body>
+  
+    <div id='app' class="center container">
+      <div id='headers'>
+        <!-- Title and subtitles! -->
+        <h1 id="title">Guessing Game</h1>
+        <br>
+        <h3 id="subtitle">Guess a number between 1-100!</h3>
+      </div>
+  
+      <div id='main'>
+        <div id='input-parent'>
+          <!-- Player's guess input, and submit button -->
+          <input id="player-input" class="center" placeholder="Guess a Number" maxlength="3" autofocus="autofocus"></input>
+          <button id="submit" class="btn btn-success">Go!</button>
+        </div>
+  
+        <div id='guesses'>
+          <ul id="guess-list">
+            <!-- unordered list of guesses -->
+            <li class="guess">-</li>
+            <li class="guess">-</li>
+            <li class="guess">-</li>
+            <li class="guess">-</li>
+            <li class="guess">-</li>
+          </ul>
+        </div>
+        
+        <div id="menu-btns">
+          <!-- reset and hint buttons -->
+          <button id="reset" class="btn btn-warning">Reset</button>
+          <button id="hint" class="btn btn-info">Hint</button>
+        </div>
+      </div>
+    </div>
+  
+  
+  
+    <div id='footer' class='center'>
+      <div>
+        <div class='footer-pics col-xs-4'>
+          <a href="https://www.fullstackacademy.com/" target="_blank" title="Visit Fullstack Academy's Website">
+            <img src='fa-logo@2x.png'>
+          </a>
+        </div>
+  
+        <div class='col-xs-4'>
+          <h4 id="creator">Created by Rashaun Warner</h4>
+        </div>
+  
+        <div class='footer-pics col-xs-4'>
+          <a href='https://www.gracehopper.com/?gclid=CjwKCAiAweXTBRAhEiwAmb3Xu80l0TGrhnVJzcPZi4mvB22zBmrqnP_En6fwD0P32Drt4t6pWZD54hoCGyIQAvD_BwE'
+            target="_blank" title="Visity Grace Hopper's Website">
+            <img src='grace_hopper_academy.png'></img>
+          </a>
+        </div>
+  
+      </div>
+    </div>
+  <script src="jquery-3.3.1.min.js"></script>
+  <script src="GuessingGame.js"></script>
+  </body>
+  
+</html>

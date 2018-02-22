@@ -1,0 +1,61 @@
+  .center {
+    text-align: center;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  img {
+    width: 200px;
+    height: 100px;
+  }
+  #footer {
+    width: 100%;
+    border-top: solid 2px black;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+  }
+  #input-parent {
+    width: 160px;
+    margin: 5% auto 5%;
+    position: relative;
+  }
+  .guess {
+    display: inline;
+    border: 5px solid blue;
+    border-radius: 20%;
+    margin: 10px 10px;
+    padding: 5px 20px;
+    font-size: 60px;
+    box-shadow: 5px 5px 5px white;
+  }
+  #player-input {
+    width: 180px;
+    height: 140px;
+    border: blue 5px solid;
+    border-radius: 100%;
+    box-shadow: 5px 5px 5px white;
+    font-size: 20px;
+    color: black;
+  }
+  #submit {
+    border-radius: 50%;
+    top: 100px;
+    left: 120px;
+    position: absolute;
+    width: 75px;
+    height: 45px;
+    font-size: 18px;
+  }
+  #guesses {
+    padding: 35px;
+  }
+  #app {
+    background-image: url("blue-galaxy.jpg");
+    color: white;
+    padding: 0% 0% 5% 0%;
+  }
+  #creator {
+    font-size: 30px;
+  }
